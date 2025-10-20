@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.secSubTitle{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+.secTitle{
+    font-size: 36px;
+    font-weight: 700;
+    color: #222222;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin-top: 20px;
+}
+/* ========== navbar start =========== */
+#navbar{
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;  
+    z-index: 555;  
+}
+.nav_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    column-gap: 45px;
+    align-items: center;
+}
+.menu ul li a{
+    color: #838383;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.menu ul li a:hover{
+    color: #8671FC;
+}
+.toggle_bar{
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+/* ========== navbar End =========== */
+
+/* ========== banner start =========== */
+#banner{
+    padding-top: 152px;
+    padding-bottom: 36px;
+    background-color: #F9FAFC;
+}
+.banner_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_content{
+    width: 470px;
+}
+.banner_content h5{
+    font-family: "Raleway", sans-serif;
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.banner_content h5 span{
+    color: #F05D7B;
+}
+.banner_content h1{
+    font-size: 72px;
+    color: #222;
+    font-weight: 700;
+    line-height: 88px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 20px;
+}
+
+.banner_content p{
+    font-size: 16px;
+    color: #838383;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+.banner_btn{
+    margin-top: 50px;
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+}
+.banner_btn a:first-child{
+    background-color: #8671FC;
+    border-radius: 30px;
+    padding: 20px 48px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    border: 1px solid #8671FC;
+}
+.banner_btn a:first-child:hover{
+    background-color: transparent;
+    color: #8671FC;
+}
+.banner_btn a:last-child{
+    color: #8671FC;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+}
+.banner_btn a:last-child i{
+    padding-left: 20px;
+    transition: all linear 0.1s;
+    -webkit-transition: all linear 0.1s;
+    -moz-transition: all linear 0.1s;
+    -ms-transition: all linear 0.1s;
+    -o-transition: all linear 0.1s;
+}
+.banner_btn a:last-child:hover i{
+    padding-left: 30px;
+}
+.banner_image{
+    width: 640px;
+    height: 640px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+.banner_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ========== banner End =========== */
+
+/* ========== About start =========== */
+#about{
+    background-color: #F05D7B;
+    padding: 150px 0;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.about_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 90px;
+    position: relative;
+    z-index: 555;
+}
+.about_left{
+    width: 525px;
+}
+.about_left h6{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.about_left h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 21px;
+    letter-spacing: 0.3s;
+}
+.about_left p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 70px;
+    max-width: 501px;
+}
+.about_left a{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+.about_left a i{
+    font-size: 14px;
+    padding-left: 12px;
+}
+.about_right{
+    width: 421px;
+}
+.about_right h3{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.3s;
+    max-width: 360px;
+}
+.about_right p{
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 421px;
+}
+.about_right a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.aboutShape2{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: linear-gradient(223deg, #F46C88 9.78%, rgba(251, 165, 189, 0.20) 136.5%);
+    opacity: 0.3;
+    position: absolute;
+    bottom: -50px;
+    right: -70px;
+}
+.aboutShape1{
+    width: 640px;
+    height: 640px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: linear-gradient(223deg, #F46C88 9.78%, rgba(251, 165, 189, 0.20) 136.5%);
+    opacity: 0.3;
+    position: absolute;
+    top: -140px;
+    left: -70px;
+}
+/* ========== About End =========== */
+
+/* ========== skill start =========== */
+#skill{
+    padding: 150px 0;
+    background: #FCFCFF;
+}
+.skill_wrapper{
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.skill_item{
+    width: 370px;
+    border: 1px solid rgba(71, 71, 71, 0.1);
+    padding: 50px 50px 36px 50px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+.skill_item h4, .skill_item p,  .skill_item a{
+    position: relative;
+    z-index: 999;
+}
+.skill_item h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #222;
+    font-family: "Raleway", sans-serif;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.skill_item p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #838383;
+    font-family: "Raleway", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.skill_item a{
+    color: #8671FC;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.skill_item:hover{
+    background-color: #F05D7B;
+}
+.skill_item:hover h4, .skill_item:hover p, .skill_item:hover a{
+    color: white;
+}
+.skill_shape{
+    width: 325px;
+    height: 325px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: linear-gradient(223deg, #F46C88 9.78%, rgba(251, 165, 189, 0.20) 136.5%);
+    opacity: 0;
+    position: absolute;
+    left: -65px;
+    top: -50px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.skill_item:hover .skill_shape{
+    opacity: 0.3;
+}
+/* ========== skill End =========== */
+
+/* ========== portfolio start =========== */
+#portfolio{
+    background: #FCFCFF;
+}
+.portfolio_btn{
+    margin-top: 40px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    column-gap: 50PX;
+}
+.portfolio_btn button{
+    color: #838383;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    cursor: pointer;
+}
+.portfolio_btn button:hover{
+    color: #8671FC;
+}
+.portfolio_wrapper{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.portfolio_item{
+    width: 370px;
+    height: 334px;
+    background-color: grey;
+}
+/* ========== portfolio End =========== */
+
+/* ========== testimonial start =========== */
+#testimonial{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: #FCFCFF;
+    overflow-x: hidden;
+}
+.testi_wrapper{
+    display: flex;
+    gap: 150px;
+}
+.testi_info{
+    width: 311px;
+}
+.testi_info .secSubTitle{
+    text-align: left;
+}
+.testi_info .secTitle{
+    text-align: left;
+}
+.testi_info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #838383;
+    font-family: "Raleway", sans-serif;
+    margin-top: 25px;
+}
+.testi_info_btn{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.testi_info_btn button{
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border: none;
+
+}
+.testi_item_wrapper{
+    width: 709px;
+}
+.testi_inner_wrapper{
+    width: 1500px;
+    display: flex;
+    gap: 60px;
+}
+.testi_item{
+    width: 280px;
+}
+.testi_item_img{
+    width: 184px;
+    height: 184px;
+    background-color: gray;
+    border: 7px solid white;
+    margin-bottom: 30px;
+    position: relative;
+}
+.testi_item_img .quote{
+    position: absolute;
+    bottom: -4px;
+    transform: translateY(50%);
+    left: 13px;
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+}
+/* ========== testimonial End =========== */
+
+/* ========== footer start =========== */
+#footer{
+    background: #F05D7B;
+    padding: 100px 0 40px 0;
+    position: relative;
+    overflow: hidden;
+}
+#footer .hr{
+    margin: 50px 0;
+    background: white;
+    opacity: 0.2;
+    height: 1px;
+    width: 100%;
+}
+
+.footer_content{
+    position: relative;
+    z-index: 555;
+}
+.footer_shape1{
+    width: 639px;
+    height: 639px;
+    background: linear-gradient(223deg, #F46C88 9.78%, rgba(251, 165, 189, 0.20) 136.5%);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transform: translateY(-40%);
+    -webkit-transform: translateY(-40%);
+    -moz-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    -o-transform: translateY(-40%);
+}
+/* ========== footer End =========== */
+/* ========== banner start =========== */
+/* ========== banner End =========== */
+/* ========== banner start =========== */
+/* ========== banner End =========== */
+/* ========== banner start =========== */
+/* ========== banner End =========== */
